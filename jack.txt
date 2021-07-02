@@ -24,5 +24,7 @@ particular file can be retrived by using above command
 
 4)total number of stages in git 
 untracked                |Tracked
-just file is created 	 |1)unmodified 2)modified 3)staging area
+just file is created 	 |1)unmodified--> after commiting the changes
+			| 2)modified--> after adding changes to staging area and modifying it
+			| 3)staging area--> after adding changes to staging area
 5)
