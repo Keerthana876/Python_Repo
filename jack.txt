@@ -1,7 +1,23 @@
-jack file want to push to new branch and merge
+jack file to push to new branch and merge
 1)how to use fetch command in cmd 
 git fetch origin
 git merge master
 
 2)how to pull the changes from remote repository
 git pull origin master
+
+3)how to use stash in git 
+to use stash command then it will be applicable on staging area files
+command to use stash --> git stash
+
+4)how to retrived stash files 
+git stash apply 
+
+if we use stash apply command then it will copy the lastest stash file(python.py) in to local repository
+to remove the(python.py)file from the stash list we can drop the stash--> git stash drop then that file is drop from the stash area
+
+5)instead of using 2 commands directly we can use --> git stash pop (it will pop up the lastest stashed file)
+
+6)we can use git stash pop stash{0} from stash list 
+particular file can be retrived by using above command
+ 
