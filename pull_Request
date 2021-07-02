@@ -1,0 +1,7 @@
+#if we are using pull command to pick the changes from the remote repository command used to pull 
+print("command used to pull the remote repository is :")
+git pull origin master 
+#if we are using fetch command to merge the changes of remote repository to the local work space 
+print("commands used to fetch the remote repository are :")
+git fetch origin
+git merge master
