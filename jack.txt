@@ -1,4 +1,7 @@
 jack file want to push to new branch and merge
-how to use fetch command in cmd 
+1)how to use fetch command in cmd 
 git fetch origin
 git merge master
+
+2)how to pull the changes from remote repository
+git pull origin master
