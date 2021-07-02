@@ -1,1 +1,4 @@
 jack file want to push to new branch and merge
+how to use fetch command in cmd 
+git fetch origin
+git merge master
