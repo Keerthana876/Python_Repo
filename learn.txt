@@ -1,1 +1,33 @@
-learning python from basic
+learning python from basics
+covered concepts like 
+to connect local repository with remote repository we can give our credentials to it 
+(git config --global user.name "keerthana",git config --global user.email "keerthanareddy337@gmail.com"
+1)git status --> untracked,tracked(unmodified,modified,staging)
+2)git add . -->to add working space files to staging area
+3)git add filename--> to add particular filename to the staging area
+4)git commit -m "my first file is added to the staging area which is moved to unmodified state"--> inline commit
+5)git commit --> vi editor will be open we can enter our commit message in it --> after entering commit message we can close it by using :wq
+6)git clone url --> to clone remote repository 
+7)git init --> to create new local repository or to reintialize local repository
+8)git push origin master --> to push my local repo master changes to the remote repo(directly changes will be merged to remote repo
+9)git push origin keerthana --> to push changes from my local repo branch (keerthana) to the remote repo(keerthana) branch --> after that merge option 
+will be displayed to merge the changes
+10)git pull origin master --> changes from remote repository are merged to the local repository branch
+11)git fetch origin --> changes from remote repo are copied to .git file 
+12)git merge master --> changes copied to .git file are merged to selected branch
+13git stash--> if we want to delete some files from repo we storing those files in stash area ,we want to use them then we can apply the changes from stash to repo
+14)git stash apply --> latest changes stored in the stash are applied to my repo
+15)git stash drop --> changes applied to the repo are not completly deleted we have to drop the changes after applying
+16)git stash pop --> instead of using 2 commands directly we can use pop to apply the changes and drop the changes
+17)git branch --> display branch names 
+18)git branch new_branch_name --> command to create new branch
+19)git checkout new_branch_name --> to move to new_branch_name
+20)git checkout -b new_branch --> instead of using 2 commands directly we can create branch and move to specific branch
+21)git -d new_branch --> to delete the new_branch
+22)git log --> to get commits details
+23)git log --oneline --graph --all --> will display commit in single line ,graphing display ,all commits will be displayed
+24)git log -p --> display commits and changesin them
+
+
+ 
+
